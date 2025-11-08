@@ -1,0 +1,10 @@
+.active {
+    color: #C586E5;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: #F7EEFB;
+}
+
+.active svg{
+    stroke-width: 2.5;
+}
