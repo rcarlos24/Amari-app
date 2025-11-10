@@ -4,6 +4,8 @@ import { InicioComponent } from '../inicio/inicio.component';
 import { HeaderComponent } from './header/header.component';
 import { BienestarComponent } from '../bienestar/bienestar.component';
 import { MotivacionComponent } from '../motivacion/motivacion.component';
+import { DiarioComponent } from '../diario/diario.component';
+import { ComunidadComponent } from '../comunidad/comunidad.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
       {
         path: 'motivacion',
         component: MotivacionComponent
+      },
+      {
+        path: 'mi-diario',
+        component: DiarioComponent
+      },
+      {
+        path: 'comunidad',
+        component: ComunidadComponent
       }
     ]
   }

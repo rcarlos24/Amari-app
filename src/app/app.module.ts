@@ -7,13 +7,17 @@ import { InicioComponent } from './inicio/inicio.component';
 import { BienestarComponent } from './bienestar/bienestar.component';
 import { MotivacionComponent } from './motivacion/motivacion.component';
 import { FormsModule } from '@angular/forms';
+import { DiarioComponent } from './diario/diario.component';
+import { ComunidadComponent } from './comunidad/comunidad.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     BienestarComponent,
-    MotivacionComponent
+    MotivacionComponent,
+    DiarioComponent,
+    ComunidadComponent
   ],
   imports: [
     BrowserModule,

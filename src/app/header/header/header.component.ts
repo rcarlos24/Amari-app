@@ -8,6 +8,10 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 export class HeaderComponent implements AfterViewInit {
   @ViewChild('mainContainer') mainContainer!: ElementRef;
 
+  sidebarOpen = false;
+  ocultarHeaderDesktop = false;
+
+
   ngAfterViewInit() {
     this.loadBackground();
 
@@ -15,6 +19,14 @@ export class HeaderComponent implements AfterViewInit {
     document.addEventListener('background-updated', () => {
       this.loadBackground();
     });
+  }
+
+  openSidebar() {
+    this.sidebarOpen = true;
+  }
+
+  closeSidebar() {
+    this.sidebarOpen = false;
   }
 
   loadBackground() {

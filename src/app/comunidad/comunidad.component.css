@@ -1,0 +1,16 @@
+.circle-profile {
+    width: 40px;       /* Ajusta según tu tamaño */
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #A1DED5, #E8A3C8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;        /* o el que prefieras */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.circle-profile p {
+    color: white;
+}
