@@ -6,6 +6,7 @@ import { BienestarComponent } from '../bienestar/bienestar.component';
 import { MotivacionComponent } from '../motivacion/motivacion.component';
 import { DiarioComponent } from '../diario/diario.component';
 import { ComunidadComponent } from '../comunidad/comunidad.component';
+import { SeguridadComponent } from '../seguridad/seguridad.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
       {
         path: 'comunidad',
         component: ComunidadComponent
+      },
+      {
+        path: 'seguridad',
+        component: SeguridadComponent
       }
     ]
   }

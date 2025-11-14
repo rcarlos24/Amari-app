@@ -9,6 +9,7 @@ import { MotivacionComponent } from './motivacion/motivacion.component';
 import { FormsModule } from '@angular/forms';
 import { DiarioComponent } from './diario/diario.component';
 import { ComunidadComponent } from './comunidad/comunidad.component';
+import { SeguridadComponent } from './seguridad/seguridad.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ComunidadComponent } from './comunidad/comunidad.component';
     BienestarComponent,
     MotivacionComponent,
     DiarioComponent,
-    ComunidadComponent
+    ComunidadComponent,
+    SeguridadComponent
   ],
   imports: [
     BrowserModule,
